@@ -2,14 +2,7 @@
 This project demonstrates how to configure and harden a firewall on Ubuntu using both UFW and iptables. It includes modular scripts, test cases, and documentation to support secure system setup and validation.
 ---
 ## Structure
-firewall-config-project
-config/ ├── iptables-rules.sh # Script for iptables firewall rules └── ufw-rules.conf # UFW rule configuration file
-
-docs/ ├── architecture.md # System architecture and design notes ├── LICENSE # Project license (MIT) ├── READ.md # Alternate readme or notes └── README.md # Main documentation file
-
-setup/ ├── dependencies.txt # Required packages and tools └── install.sh # Setup script for environment prep
-
-tests/ ├── test-iptables.sh # Test cases for iptables rules └── test-ufw.sh # Test cases for UFW rules
+![Project Structure}(screenshots/File_structure.png)
 ---
 ### Setup Instructions
 ### Clone the Repository
