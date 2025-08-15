@@ -2,7 +2,7 @@
 This project demonstrates how to configure and harden a firewall on Ubuntu using both UFW and iptables. It includes modular scripts, test cases, and documentation to support secure system setup and validation.
 ---
 ## Structure
-![Project Structure}(screenshots/File_structure.png)
+![Project Structure](screenshots/File_structure.png)
 ---
 ### Setup Instructions
 ### Clone the Repository
