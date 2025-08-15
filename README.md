@@ -30,7 +30,6 @@ sudo ufw default allow outgoing
 sudo ufw allow ssh
 sudo ufw allow 80/tcp
 sudo ufw reload
-
 ## or use the config file
 sudo ufw --dry-run < config/ufw-rules.conf
 ## iptables
@@ -38,5 +37,7 @@ sudo bash config/iptables-rules.sh
 ## Run Tests
 bash tests/test-ufw.sh
 bash tests/test-iptables.sh
+exit 0
+```
 
 
