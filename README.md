@@ -18,11 +18,12 @@ tests/ ├── test-iptables.sh # Test cases for iptables rules └── test
 git clone https://github.com/malik1456/firewall-config-project.git
 cd firewall-config-project
 ```
-
+'''bash
 ## Install Dependencies
 cd setup
 sudo bash install.sh
-
+```
+```bash
 ## Apply firewall rules using ufw
 sudo ufw reset
 sudo ufw enable
@@ -31,13 +32,20 @@ sudo ufw default allow outgoing
 sudo ufw allow ssh
 sudo ufw allow 80/tcp
 sudo ufw reload
+```
+```bash
 ## or use the config file
 sudo ufw --dry-run < config/ufw-rules.conf
+```
+```bash
 ## iptables
 sudo bash config/iptables-rules.sh
+```
+```bash
 ## Run Tests
 bash tests/test-ufw.sh
 bash tests/test-iptables.sh
+```
 
 
 
