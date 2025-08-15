@@ -23,7 +23,7 @@ cd firewall-config-project
 cd setup
 sudo bash install.sh
 ```
-## Apply firewall rules using ufw
+## Apply firewall rules using ufw or use Config file below
 ```bash
 sudo ufw reset
 sudo ufw enable
@@ -33,7 +33,7 @@ sudo ufw allow ssh
 sudo ufw allow 80/tcp
 sudo ufw reload
 ```
-## or use the config file
+## The config file
 ```bash
 sudo ufw --dry-run < config/ufw-rules.conf
 ```
