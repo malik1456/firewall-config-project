@@ -18,7 +18,7 @@ tests/ ├── test-iptables.sh # Test cases for iptables rules └── test
 git clone https://github.com/malik1456/firewall-config-project.git
 cd firewall-config-project
 ```
-'''bash
+```bash
 ## Install Dependencies
 cd setup
 sudo bash install.sh
