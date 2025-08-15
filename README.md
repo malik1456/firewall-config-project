@@ -46,6 +46,12 @@ sudo bash config/iptables-rules.sh
 bash tests/test-ufw.sh
 bash tests/test-iptables.sh
 ```
+## Documentation
+see docs/architecture.md for system design and raitionale.Licensing information in docs/LICENCSE
+## CONTACT
+Malik Stockton
+Linkedin:www.linkedin.com/in/malik-stockton-a6777b1aa
+Email: Malikstockton@gmail.com
 
 
 
