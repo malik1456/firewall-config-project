@@ -17,6 +17,7 @@ tests/ ├── test-iptables.sh # Test cases for iptables rules └── test
 ```bash
 git clone https://github.com/malik1456/firewall-config-project.git
 cd firewall-config-project
+'''
 
 ## Install Dependencies
 cd setup
@@ -37,7 +38,6 @@ sudo bash config/iptables-rules.sh
 ## Run Tests
 bash tests/test-ufw.sh
 bash tests/test-iptables.sh
-exit 0
-```
+
 
 
